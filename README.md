@@ -1,1 +1,21 @@
-Para realizar el formulario lo primero fue crear un componente <Form/> que se encuentra dentro de <App/> y donde fui colocando los distintos componentes. Estos son los label, inputs, checkbox y el boton de registro. A cada uno le fui pasando props para que sean dinamicos unos de otros, y a traves de useState fui mutando los estados de los componentes segun si las validaciones se cumplian o no a traves del uso de expreiones regulares. No llegue a intentar para que se pueda ver de forma opcional el contenido de password y me costo el tema de los checkbox, igualmente se lo puede pulir más.  Cualquier consulta que tengas me la podes comentar y lo vemos. Saludos.  
+Test de Front end
+
+Requerimientos:(React), Pantalla de Login/registro:
+- Hacer un formulario de registro
+- Nombre
+- Apellido
+- Email *Bonus, verificar que el mail sea valido, recordar que puede
+ser: sasd@sada.com, sdad.sdad2@asddasdsad.com.ar
+- Genero (Masculino o Femenino)
+- Contraseña(oculta) *bonus que se pueda ver
+- Confirmar contraseña
+- No permitir confirmarlo si toda la informacion no es valida
+- Subir el proyecto a un repositorio de git, presentarlo y comentar
+con una pequeña demo y explicar como lo resolviste, agendamos un
+horario para hacer una call online
+*Bonus:
+- se pueden usar mensajes de alerta(dialogos),
+- que muestre el/los campo invalido
+- Cualquier diseño lindo
+- Utilizar librerias de estilo: Bootstrap/PrimeReact/otra, la que mas les guste
+ 
